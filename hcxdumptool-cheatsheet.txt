@@ -1,0 +1,3 @@
+hcxdumptool -i wlx00c0caae5e03 --enable_status=64 -o ~/output/27nov/activebeacon_hcxdumptool.pcapng
+
+hcxpcapngtool -E wordlist_out.txt -m 22000 -o test_out.22000 test.pcapng
