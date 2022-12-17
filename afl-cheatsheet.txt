@@ -1,0 +1,7 @@
+# compile it with afl
+export LLVM_CONFIG="llvm-config-11"
+CC=afl-clang-lto		## or whatever supported compiler variant. afl-clang-lto/++ prefered -> afl-clang-fast -> afl-gcc-fast -> afl-gcc/clang
+
+# fuzz it
+# everything after -- is the tgt command. The @@ stands in for the corpus files
+afl-fuzz -i corpus-dir/ -o output-dir/ -s <random seed int> -- path/to/tgt-binary @@ <tgt-bins-cli-params>
