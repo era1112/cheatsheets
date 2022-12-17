@@ -1,0 +1,8 @@
+run and detach
+	screen -dmS [session name] [command]
+	
+reattach
+	screen -r [session name]
+	
+detach from attached
+	ctrl+ad
