@@ -13,6 +13,9 @@
 
 - clone
 	git clone <URL>
+
+- check for currency
+	git remote show origin
 	
 - add/commit/push
 	git add ./*
