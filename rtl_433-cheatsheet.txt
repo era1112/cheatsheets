@@ -1,2 +1,7 @@
-# Common freqs (TPMS, APRS [nodec], LORA [nodec], ADSB [nodec], thermostat) most common x4 in rotation (315, 433), 30 sec hops, added rssi to output, csv output
-rtl_433 -f 315M -f 433.92M -f 315M -f 433.92M -f 315M -f 433.92M -f 144.39 -f 301M -f 315M -f 345M -f 433.92M -f 868M -f 910M -f 915M -H 30 -v -M level -F csv:/home/user/loot/rtl433/loot.csv -F kv
+# Common freqs (TPMS, APRS [nodec], LORA [nodec], ADSB [nodec], thermostat)
+# 315 gets 4x scan time, 433 gets 2x (most common freqs). 
+# 30 sec hops, added rssi to output, csv output, summary report to stdout every 5 min
+# Sample rate is defaul (1M). Seems to have the best performance.
+# Used on rtl-sdr w/ pctel low-pro 4g antenna
+
+rtl_433 -f 315M -f 315M -f 433M -f 315M -f 144.39M -f 301M -f 315M -f 345M -f 434M -f 868M -f 910M -f 915M -H 30 -v -M level -F csv:/home/user/loot/rtl433/loot.csv -F kv -M hires -M stats:1:600
