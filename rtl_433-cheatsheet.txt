@@ -1,7 +1,39 @@
-# Common freqs (TPMS, APRS [nodec], LORA [nodec], ADSB [nodec], thermostat)
-# 315 gets 4x scan time, 433 gets 2x (most common freqs). 
-# 30 sec hops, added rssi to output, csv output, summary report to stdout every 5 min
-# Sample rate is defaul (1M). Seems to have the best performance.
+# Sample rate is default (1M). Seems to have the best performance.
 # Used on rtl-sdr w/ pctel low-pro 4g antenna
+# Freqs: TPMS (315, 433), home automation (433), APRS (144 [nodec]), LORA (905 [nodec]), ADSB (910 [nodec])
+# This script defines a 10 minute block. For ease of analysis, start it at time xx:x0.00
 
-rtl_433 -f 315M -f 315M -f 433M -f 315M -f 144.39M -f 301M -f 315M -f 345M -f 434M -f 868M -f 910M -f 915M -H 30 -v -M level -F csv:/home/user/loot/rtl433/loot.csv -F kv -M hires -M stats:1:600
+# During analysis, freqs will align with M:SS as follows:
+# 0:00 144
+# 0:30 301
+# 1:00 315
+# 6:00 345
+# 6:30 434
+# 7:00 433
+# 8:30 868
+# 9:00 910
+# 9:30 910
+
+rtl_433 \
+-f 144M \
+-f 301M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 315M \
+-f 345M \
+-f 434M \
+-f 433M \
+-f 433M \
+-f 433M \
+-f 868M \
+-f 910M \
+-f 915M \
+-H 30 -M hires -v -M level `# hop every 60 secs, usec precision, records RSSI/SNR`\
+-F csv:/home/user/loot/rtl433/loot.csv -F kv -M stats:1:600 `# output to csv, summary report to stdout every 5 min`
