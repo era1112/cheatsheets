@@ -1,7 +1,9 @@
+#!/bin/bash
+
 # Sample rate is default (1M). Seems to have the best performance.
 # Used on rtl-sdr w/ pctel low-pro 4g antenna
 # Freqs: TPMS (315, 433), home automation (433), APRS (144 [nodec]), LORA (905 [nodec]), ADSB (910 [nodec])
-# This script defines a 10 minute block. For ease of analysis, start it at time xx:x0.00
+# This script defines a 10 minute block. For ease of analysis, start it at time xx:x0.00 (using at command)
 
 # During analysis, freqs will align with M:SS as follows:
 # 0:00 144
