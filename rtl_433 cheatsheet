@@ -1,0 +1,3 @@
+rtl_433 -f 433.92M -f 315M -f 144.39 -f 301M -f 315M -f 910M -f 915M -H 30 -v -M level -F kv -F csv:/home/user/loot/rtl433/loot.csv
+
+Freqs: ISM, ARPS, LORA, ADSB
