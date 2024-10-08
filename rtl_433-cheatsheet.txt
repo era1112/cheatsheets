@@ -1,0 +1,2 @@
+// Common freqs, most common twice in rotation (433), 30 sec hops, added rssi to output, csv output
+rtl_433 -f 433.92M -f 144.39 -f 301M -f 315M -f 345M -f 433.92M -f 868M -f 910M -f 915M -H 30 -v -M level -F csv:/home/user/loot/rtl433/loot.csv -F kv
