@@ -38,7 +38,7 @@ rtl_433 \
 -f 910M \
 -f 915M \
 -H 30 -M hires `# hop every 60 secs, usec precision, auto-sets detection thresh vs noise`\
--F csv:/home/user/loot/rtl433/loot.csv -F kv -v -M level -M stats:1:600 `# records RSSI/SNR, output to csv, summary report to stdout every 5 min`
+-F csv:/home/user/loot/rtl433/loot.csv -F kv -v -M level -M stats:1:600 `# records RSSI/SNR, output to csv, summary report to stdout every cycle (10 min)`
 
 
 # TODO:
