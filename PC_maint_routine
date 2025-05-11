@@ -1,30 +1,30 @@
 LOOK FOR OLD/CACHE STUFF TO DELETE
 ===================================
-[]	add/remove programs list
-    [] Check for excessive .NET packages, VC++ distros, HP, MS, nVidia non-essentials 
-[] windows "disk cleanup"
+[X]	add/remove programs list
+    [X] Check for excessive .NET packages, VC++ distros, HP, MS, nVidia non-essentials 
+[X] windows "disk cleanup"
 []	windirstat (look for large files, Appdata bloat, etc)
-[] startup items (from ctrl+shift+esc menu, and settings app)
-[] check on win firewall allowed apps
+[X] startup items (from ctrl+shift+esc menu, and settings app)
+[X] check on win firewall allowed apps
 [] system scan for any relics of "logmein" (from exam proctoring)
-[] Check USBDeview for anything abnormal
-[] Check ncpa.cpl for anything unusual
-[] Check PATH for anything unusual
-[] Check windows users list
-[] Check AD users and permissions
-[] Check defender exclusion lists and history
+[X] Check USBDeview for anything abnormal
+[X] Check ncpa.cpl for anything unusual
+[X] Check PATH for anything unusual
+[X] Check windows users list
+[X] Check AD users and permissions
+[X] Check defender exclusion lists and history
 
 UPDATE SYSTEM STUFF
 ====================
-[]	good solid reboot [shutdown /s /f /t 00]
-[]	windows update
-[]	hp update (hp support assist app)
-[]	gpu update (nvidia app)
-[]	platform hw update (intel driver & support app)
-[]	igpu update (intel graphics software app)
-[]	update steam
-[] Windows health wizard: Dism.exe /online /cleanup-image /restorehealth
-[] Windows disk health wizard: Sfc /scannow
+[X]	good solid reboot [shutdown /s /f /t 00]
+[X]	windows update
+[X]	hp update (hp support assist app)
+[X]	gpu update (nvidia app)
+[X]	platform hw update (intel driver & support app)
+[X]	igpu update (intel graphics software app)
+[X]	update steam
+[X] Windows health wizard: Dism.exe /online /cleanup-image /restorehealth
+[X] Windows disk health wizard: Sfc /scannow
 
 ADD NEW SOFTWARE
 ================
@@ -32,13 +32,13 @@ ADD NEW SOFTWARE
 
 SCAN PC
 =======
-[] scandisk ("error checking" in drive properties)
-[] defrag ("optimize and defragment drive" in drive properties)
-[] rkill
+[X] scandisk ("error checking" in drive properties)
+[X] defrag ("optimize and defragment drive" in drive properties)
+[X] rkill
 [x] malwarebytes complete scan
-N [] win defender complete scan
-[] adwcleaner
-[] hitman
+[X] win defender complete scan
+[X] adwcleaner
+[X] hitman
 [] hwinfo64, check temperatures are normal under load
 
 RINSE AND REPEAT
@@ -54,6 +54,7 @@ UNINSTALL TOOLS THAT DONT NEED TO BE PERSISTENT
 
 BACKUP
 ======
+{{}} Remove unused recovery partitions
 []	push image to redorescue 
 
 LOG
