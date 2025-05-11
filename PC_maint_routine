@@ -1,0 +1,36 @@
+GET RID OF CRAP
+===============
+[x]	add/remove
+[x] windows disk cleanup
+[x]	windirstat
+[x] startup items
+
+UPDATE SYSTEM STUFF
+====================
+[]	good solid reboot [shutdown /s /f /t 00]
+[x]	windows update
+[x]	hp update (hp support assist)
+[x]	gpu update (nvidia app)
+[x]	platform hw update (intel driver & support)
+[x]	igpu update (intel graphics software)
+[]	update steam
+
+ADD NEW SOFTWARE
+================
+
+SCAN PC
+=======
+[]win defender
+[] rkill
+[x] malwarebytes
+[] adwcleaner
+[] hitman
+[] huntress?
+
+RINSE AND REPEAT
+================
+[] repeat everything 1 more time
+
+BACKUP
+======
+[]	push to redorescue
