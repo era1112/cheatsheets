@@ -1,27 +1,31 @@
-GET RID OF CRAP
-===============
-[x]	add/remove
-[x] windows disk cleanup
-[x]	windirstat
-[x] startup items
-[x] win firewall allowed apps
+LOOK FOR OLD STUFF TO DELETE
+============================
+[x]	add/remove programs list
+[x] windows "disk cleanup"
+[x]	windirstat (look for large files, Appdata bloat, etc)
+[x] startup items (from ctrl+shift+esc menu)
+[x] check on win firewall allowed apps
+[x] system scan for any relics of "logmein" (from exam proctoring)
 
 UPDATE SYSTEM STUFF
 ====================
 []	good solid reboot [shutdown /s /f /t 00]
 [x]	windows update
-[x]	hp update (hp support assist)
+[x]	hp update (hp support assist app)
 [x]	gpu update (nvidia app)
-[x]	platform hw update (intel driver & support)
-[x]	igpu update (intel graphics software)
+[x]	platform hw update (intel driver & support app)
+[x]	igpu update (intel graphics software app)
 [x]	update steam
 
 ADD NEW SOFTWARE
 ================
+[] install new apps here so they get scanned next
 
 SCAN PC
 =======
-[]win defender
+[x] scandisk ("error checking" in drive properties)
+[x] defrag ("optimize and defragment drive" in drive properties)
+[] win defender
 [x] rkill
 [x] malwarebytes
 [x] adwcleaner
@@ -29,10 +33,19 @@ SCAN PC
 
 RINSE AND REPEAT
 ================
-[] repeat everything 1 more time
+[] repeat everything 1 more time from the "update" and "scan" lists
+
+UNINSTALL TOOLS THAT DONT NEED TO BE PERSISTENT
+============================================
+[] Malwarebytes
+[] rkill
+[] adwcleaner
+[] hitman
 
 BACKUP
 ======
-[]	push to redorescue
+[]	push image to redorescue 
 
+LOG
+===
 20250511  Games
