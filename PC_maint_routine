@@ -1,15 +1,20 @@
-LOOK FOR OLD STUFF TO DELETE
-============================
+LOOK FOR OLD/CACHE STUFF TO DELETE
+===================================
 [x]	add/remove programs list
+    [x] Check for excessive .NET packages, VC++ distros, HP, MS, nVidia non-essentials 
 [x] windows "disk cleanup"
 [x]	windirstat (look for large files, Appdata bloat, etc)
-[x] startup items (from ctrl+shift+esc menu)
+[x] startup items (from ctrl+shift+esc menu, and settings app)
 [x] check on win firewall allowed apps
 [x] system scan for any relics of "logmein" (from exam proctoring)
+[x] Check USBDeview for anything abnormal
+[x] Check ncpa.cpl for anything unusual
+[x] Check windows users list
+[x[ Check defender exclusion lists and history
 
 UPDATE SYSTEM STUFF
 ====================
-[]	good solid reboot [shutdown /s /f /t 00]
+[x]	good solid reboot [shutdown /s /f /t 00]
 [x]	windows update
 [x]	hp update (hp support assist app)
 [x]	gpu update (nvidia app)
@@ -19,17 +24,18 @@ UPDATE SYSTEM STUFF
 
 ADD NEW SOFTWARE
 ================
-[] install new apps here so they get scanned next
+[x] If you have new apps/games, install them here 
 
 SCAN PC
 =======
 [x] scandisk ("error checking" in drive properties)
 [x] defrag ("optimize and defragment drive" in drive properties)
-[] win defender
 [x] rkill
-[x] malwarebytes
+[x] malwarebytes complete scan
+[] win defender complete scan
 [x] adwcleaner
 [x] hitman
+[] hwinfo64, check temperatures are normal under load
 
 RINSE AND REPEAT
 ================
