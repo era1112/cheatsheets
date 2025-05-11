@@ -3,10 +3,10 @@ LOOK FOR OLD/CACHE STUFF TO DELETE
 [X]	add/remove programs list
     [X] Check for excessive .NET packages, VC++ distros, HP, MS, nVidia non-essentials 
 [X] windows "disk cleanup"
-[]	windirstat (look for large files, Appdata bloat, etc)
+[X]	windirstat (look for large files, Appdata bloat, etc)
 [X] startup items (from ctrl+shift+esc menu, and settings app)
 [X] check on win firewall allowed apps
-[] system scan for any relics of "logmein" (from exam proctoring)
+[X] system scan for any relics of "logmein" (from exam proctoring)
 [X] Check USBDeview for anything abnormal
 [X] Check ncpa.cpl for anything unusual
 [X] Check PATH for anything unusual
@@ -39,7 +39,7 @@ SCAN PC
 [X] win defender complete scan
 [X] adwcleaner
 [X] hitman
-[] hwinfo64, check temperatures are normal under load
+[X] hwinfo64, check temperatures are normal under load
 
 RINSE AND REPEAT
 ================
@@ -47,14 +47,13 @@ RINSE AND REPEAT
 
 UNINSTALL TOOLS THAT DONT NEED TO BE PERSISTENT
 ============================================
-[] Malwarebytes
-[] rkill
-[] adwcleaner
-[] hitman
+[X] Malwarebytes
+[X] rkill
+[X] adwcleaner
+[X] hitman
 
 BACKUP
 ======
-{{}} Remove unused recovery partitions
 []	push image to redorescue 
 
 LOG
