@@ -9,6 +9,7 @@ LOOK FOR OLD/CACHE STUFF TO DELETE
 [] system scan for any relics of "logmein" (from exam proctoring)
 [] Check USBDeview for anything abnormal
 [] Check ncpa.cpl for anything unusual
+[] Check PATH for anything unusual
 [] Check windows users list
 [] Check AD users and permissions
 [] Check defender exclusion lists and history
