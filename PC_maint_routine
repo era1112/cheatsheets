@@ -13,7 +13,7 @@ UPDATE SYSTEM STUFF
 [x]	gpu update (nvidia app)
 [x]	platform hw update (intel driver & support)
 [x]	igpu update (intel graphics software)
-[]	update steam
+[x]	update steam
 
 ADD NEW SOFTWARE
 ================
@@ -21,7 +21,7 @@ ADD NEW SOFTWARE
 SCAN PC
 =======
 []win defender
-[] rkill
+[x] rkill
 [x] malwarebytes
 [x] adwcleaner
 [x] hitman
@@ -33,3 +33,5 @@ RINSE AND REPEAT
 BACKUP
 ======
 []	push to redorescue
+
+20250511  Games
