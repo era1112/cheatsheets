@@ -1,6 +1,6 @@
 1) Set up venv
 
-  python -m venv venv-proj
+  python -m venv .venv-proj
 
 2) Activate venv
 
