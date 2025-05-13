@@ -12,5 +12,5 @@ bash
 	Run and detach
 		command &
 
-	Run and detach and deny stdout
-		nohup command &
+	Run and detach and deny all to stdout
+		command &>/dev/null &
