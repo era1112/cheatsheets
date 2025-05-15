@@ -1,0 +1,23 @@
+## params to allow smtp alerts over gmail (using 2025 gmail security policy)
+
+Linux:
+  APT deps:
+    msmtp (apparmor is ok)
+    mailutils
+    
+  Define  ~/.msmtprc (and chmod 600):
+    account gmail
+    auth on
+    host smtp.gmail.com
+    port 587
+    protocol smtp
+    tls on
+    tls_starttls on
+    tls_trust_file /etc/ssl/certs/ca-certificates.crt
+    from example@gmail.com
+    user example@gmail.com
+    passwordeval "cat ~/.oauth_token"
+    logfile ~/.msmtp.log
+
+  At console.cloud.google.com, configure a OAuth2.0 client and export credentials.json
+  
