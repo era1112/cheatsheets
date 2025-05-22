@@ -1,0 +1,10 @@
+Show whch distro:
+  cat /etc/*release
+
+Show which DE:
+  echo $XDG_SESSION_DESKTOP
+  echo $XDG_CURRENT_DESKTOP
+
+
+Show which WM
+  ls -l /etc/alternatives/x-window-manager
