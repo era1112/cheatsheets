@@ -5,6 +5,11 @@ Show which DE:
   echo $XDG_SESSION_DESKTOP
   echo $XDG_CURRENT_DESKTOP
 
-
 Show which WM
   ls -l /etc/alternatives/x-window-manager
+
+First xx lines (default is 10)
+  head -n xx tgt.txt
+
+Line count
+  wc -l tgt.txt
