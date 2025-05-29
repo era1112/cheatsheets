@@ -13,3 +13,4 @@ First xx lines (default is 10)
 
 Line count
   wc -l tgt.txt
+PS: Get-Content tgt.txt | Measure-Object -Line
