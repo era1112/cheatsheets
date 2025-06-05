@@ -1,1 +1,3 @@
-iptables -A (append to chain) INPUT, OUTPUT, FORWARD (default chains) (matching criteria) -j DROP (behavior to Jump to)
+iptables -A (append to chain) INPUT, OUTPUT, FORWARD (default chains, INPUT means inbound to the host) (matching criteria) -j DROP (behavior to Jump to)
+
+iptables -L (list rules in chain) -v -n --line-numbers
