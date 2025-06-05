@@ -1,0 +1,1 @@
+iptables -A (append to chain) INPUT, OUTPUT, FORWARD (default chains) (matching criteria) -j DROP (behavior to Jump to)
